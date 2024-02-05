@@ -49,6 +49,4 @@ public class Logger {
     public void error(Exception thrownException, String errorMessage) {
         LoggerManager.error(thrownException, className, errorMessage);
     }
-
-
 }
