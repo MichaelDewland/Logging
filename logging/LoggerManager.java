@@ -1,4 +1,4 @@
-package com.michael.tracker.logging;
+package logging;
 
 import java.util.ArrayList;
 
