@@ -1,4 +1,4 @@
-package com.michael.tracker.example;
+package logging.example;
 
 import com.michael.tracker.logging.Logger;
 import com.michael.tracker.logging.LoggerManager;
