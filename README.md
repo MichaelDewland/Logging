@@ -68,14 +68,14 @@ public class ExampleLogging {
 ```
 
 ### Info
-To log information to the console, call the `info` method of your logger instance
-The `info` method takes a single `String` parameter `info`
+To log information to the console, call the `info` method of your logger instance.
+The `info` method takes a single `String` parameter `info`.
 
 
 ### Warn
-To log a warning to the console, call the `warn` method of your logger instance
-The `warn` method takes either a single `String` parameter `warning`, or two paramaters: an instance of `Exception` or any child-classes of its and a `String` `warning`
+To log a warning to the console, call the `warn` method of your logger instance.
+The `warn` method takes either a single `String` parameter `warning`, or two paramaters: an instance of `Exception` or any child-classes of its and a `String` `warning`.
 
 ### Error
-To log an error to the console, call the `error` method of your logger instance
-The `error` method takes two paramaters: an instance of the `Exception` or any child-classes of its and a `String` `error`
+To log an error to the console, call the `error` method of your logger instance.
+The `error` method takes two paramaters: an instance of the `Exception` or any child-classes of its and a `String` `error`.
