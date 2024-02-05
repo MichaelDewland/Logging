@@ -3,6 +3,12 @@ package logging.example;
 import logging.Logger;
 import logging.LoggerManager;
 
+/**
+ * This is a simple example usage for the Logger class.
+ *
+ * @author Michael Dewland
+ * @version 1.0
+ */
 public class ExampleLogging {
 
     private static final Logger logger = LoggerManager.getLogger(ExampleLogging.class.getName());
