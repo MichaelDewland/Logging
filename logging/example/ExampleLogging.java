@@ -20,7 +20,6 @@ public class ExampleLogging {
         logSomeWarnings();
 
         logSomeErrors();
-
     }
 
     private static void logSomeInfo() {
@@ -42,7 +41,6 @@ public class ExampleLogging {
         } catch (NumberFormatException e) {
             logger.warn(e, "Number failed to parse, may cause an issue later");
         }
-
     }
 
     private static void logSomeErrors() {
@@ -59,5 +57,4 @@ public class ExampleLogging {
             logger.error(e, "Couldn't sleep, Thread waiting/sleeping");
         }
     }
-
 }
