@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document provides an overview of the custom logger implemented in Java. The logger supports logging of information, warnings, and errors. It initializes a `Logger` instance using the `LoggerManager` to handle all logging operations.
+This document provides an overview of the custom logger implemented in Java. The logger supports logging of information, warnings, and errors. It initializes a `Logger` instance using `LoggerManager.getLogger(<classname>)` to handle all logging operations.
 
 ## Usage
 
