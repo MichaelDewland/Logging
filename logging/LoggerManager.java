@@ -51,7 +51,6 @@ public class LoggerManager {
         submitLog(new Warning(className, warning));
     }
 
-
     /**
      * Log a warning.
      * @param thrownException the exception thrown
@@ -127,7 +126,6 @@ public class LoggerManager {
         for (Log log : allLogs) {
             System.out.println(" - " + log);
         }
-
     }
 
     /**
