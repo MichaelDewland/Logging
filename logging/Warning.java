@@ -1,4 +1,4 @@
-package com.michael.tracker.logging;
+package logging;
 
 /**
  * The Warning class should be used when a method call returns a non-fatal but useful exception.
