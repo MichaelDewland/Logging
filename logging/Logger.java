@@ -1,4 +1,4 @@
-package com.michael.tracker.logging;
+package logging;
 
 /**
  * The Logger class is an abstracted interface for LoggerManager that handles the passing of classnames and messages to the LoggerManager
