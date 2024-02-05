@@ -41,5 +41,4 @@ public class Warning extends Log {
                 + ((thrownException != null) ? " [Exception: \"" + thrownException.getClass().getName() + "\"]" : "")
                 + " - "  + message ;
     }
-
 }
