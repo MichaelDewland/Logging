@@ -1,4 +1,4 @@
-package com.michael.tracker.logging;
+package logging;
 
 /**
  * The Error class should be used when a method call returns a fatal exception.
