@@ -6,6 +6,8 @@ This document provides an overview of the custom logger implemented in Java. The
 
 ## Usage
 
+An example usage file is contained in the package `logging.example`.
+
 ### Initialization
 
 To use the logger, you need to initialize an instance of `Logger` using the `LoggerManager`. Import the necessary classes:
