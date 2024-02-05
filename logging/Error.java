@@ -41,5 +41,4 @@ public class Error extends Log {
                 + ((thrownException != null) ? " [Exception: \"" + thrownException.getClass().getName() + "\"]" : "")
                 + " - "  + message ;
     }
-
 }
