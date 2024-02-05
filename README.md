@@ -79,3 +79,14 @@ The `warn` method takes either a single `String` parameter `warning`, or two par
 ### Error
 To log an error to the console, call the `error` method of your logger instance.
 The `error` method takes two paramaters: an instance of the `Exception` or any child-classes of its and a `String` `error`.
+
+# Example output
+```
+Logs:
+====
+ - [2024/02/05 06:10:35]	[INFO] 		[logging.example.ExampleLogging] - Hello, welcome to the logger!
+ - [2024/02/05 06:10:35]	[INFO] 		[logging.example.ExampleLogging] - Time to throw some warnings!
+ - [2024/02/05 06:10:35]	[WARNING] 	[logging.example.ExampleLogging] - Age doesn't meet requirements!
+ - [2024/02/05 06:10:35]	[WARNING] 	[logging.example.ExampleLogging] [Exception: "java.lang.NumberFormatException"] - Number failed to parse, may cause an issue later
+ - [2024/02/05 06:10:35]	[ERROR] 	[logging.example.ExampleLogging] [Exception: "java.lang.NumberFormatException"] - Number failed to parse
+```
