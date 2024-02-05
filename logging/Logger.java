@@ -6,7 +6,6 @@ package logging;
  * @author Michael Dewland
  * @version 1.0
  */
-
 public class Logger {
 
     private String className;
@@ -39,7 +38,6 @@ public class Logger {
     public void warn(Exception thrownException, String warning) {
         LoggerManager.warn(thrownException, className, warning);
     }
-
 
     /**
      * Log a fatal exception.
