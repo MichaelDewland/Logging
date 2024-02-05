@@ -23,10 +23,8 @@ public class Log {
     // The time at which the log is created.
     public LocalDateTime time;
 
-
     // The string formatter for the Log submission time.
     protected DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
-
 
     /**
      * A constructor which takes a process and an insightful message.
@@ -37,7 +35,6 @@ public class Log {
     public Log(String process, String message) {
         this(null, process, message);
     }
-
 
     /**
      * A constructor which takes an exception, a process and an error message.
@@ -53,7 +50,6 @@ public class Log {
         this.time = LocalDateTime.now();
     }
 
-
     /**
      * The toString method for displaying a Log.
      *
@@ -66,5 +62,4 @@ public class Log {
                 + ((thrownException != null) ? " [Exception: \"" + thrownException.getClass().getName() + "\"]" : "")
                 + "- "  + message ;
     }
-
 }
