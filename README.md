@@ -12,6 +12,22 @@ An example usage file is contained in the package `logging.example`.
 
 To use the logger, you need to initialize an instance of `Logger` using the `LoggerManager`. Import the necessary classes:
 
+
+
+### Info
+To log information to the console, call the `info` method of your logger instance.
+The `info` method takes a single `String` parameter `info`.
+
+
+### Warn
+To log a warning to the console, call the `warn` method of your logger instance.
+The `warn` method takes either a single `String` parameter `warning`, or two paramaters: an instance of `Exception` or any child-classes of its and a `String` `warning`.
+
+### Error
+To log an error to the console, call the `error` method of your logger instance.
+The `error` method takes two paramaters: an instance of the `Exception` or any child-classes of its and a `String` `error`.
+
+# Example
 ```java
 import logging.Logger;
 import logging.LoggerManager;
@@ -66,19 +82,6 @@ public class ExampleLogging {
     }
 }
 ```
-
-### Info
-To log information to the console, call the `info` method of your logger instance.
-The `info` method takes a single `String` parameter `info`.
-
-
-### Warn
-To log a warning to the console, call the `warn` method of your logger instance.
-The `warn` method takes either a single `String` parameter `warning`, or two paramaters: an instance of `Exception` or any child-classes of its and a `String` `warning`.
-
-### Error
-To log an error to the console, call the `error` method of your logger instance.
-The `error` method takes two paramaters: an instance of the `Exception` or any child-classes of its and a `String` `error`.
 
 # Example output
 ```
